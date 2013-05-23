@@ -364,6 +364,11 @@ js:assets:
 - --skip
 - --skip-namespace
 - --old-style-hash
+annotate_models:install:
+- --force
+- --pretend
+- --quiet
+- --skip
 active_record:migration:
 - --force
 - --pretend
