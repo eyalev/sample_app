@@ -114,6 +114,21 @@ jquery:install:
 - --pretend
 - --quiet
 - --skip
+factory_girl:model:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
+- --dir=
+cucumber:install:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --spork
+- --skip-database
 coffee:assets:
 - --force
 - --pretend
